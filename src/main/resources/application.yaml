@@ -1,0 +1,22 @@
+#
+spring:
+  application:
+    name: powerhair
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+
+#
+server:
+  port: 8080
+
+  # 上传图片路径映射
+upload:
+  path:
+    face: /opt/photo/
+
+
