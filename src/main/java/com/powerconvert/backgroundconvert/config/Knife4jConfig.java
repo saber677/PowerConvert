@@ -40,7 +40,7 @@ public class Knife4jConfig {
      */
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("PowerHair接口管理")
+                .title("PowerConvert接口管理")
                 .description("API后端接口文档")
                 .contact(new Contact("luqiqi", "", "luqiqi.677@foxmail.com"))
                 .version("v1.0.0")

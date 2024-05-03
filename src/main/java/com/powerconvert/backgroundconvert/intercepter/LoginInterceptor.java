@@ -14,17 +14,7 @@ public class LoginInterceptor implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-//        Boolean isLogin = (Boolean) request.getSession().getAttribute(SessionConstant.USER_LOGIN_STATUS);
-//        logger.info("开始拦截,是否通过拦截:{}", (!Objects.isNull(isLogin) && isLogin));
         return true;
-//        String accountId = request.getHeader(SessionConstant.USER_AUTH);
-//        String token = request.getSession().getAttribute(SessionConstant.USER_AUTH).toString();
-//        if (StringUtils.isNotEmpty(accountId) && StringUtils.equals(accountId, token)) {
-//            UserContextUtil.setAccountId(Long.parseLong(accountId));
-//            return true;
-//        } else {
-//            return true;
-//        }
     }
 
     @Override
